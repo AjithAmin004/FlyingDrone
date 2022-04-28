@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="drone.css">
+    <title>Drone</title>
+</head>
+<body onmousemove ="showCoords(event)"  >
+    <div id="main">
+        <div id="dronebox">
+            <img src="./drone-left.png" alt="" id="leftpic">
+            <img src="./drone-right.png" alt="" id="rightpic">
+            <img src="./drone.png" alt="" id="dronepic">
+        </div>
+    </div>
+    <!-- <script>
+        function showCoords(event) {
+  var x = event.clientX;
+  var y = event.clientY;
+//   let div = document.getElementsByTagName("div");
+//   div.backgroundColor = "blue";
+console.log(x);
+console.log(y);
+}
+    </script> -->
+    <script src="drone.js"></script>
+</body>
+</html>
